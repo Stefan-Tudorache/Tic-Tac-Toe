@@ -3,10 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
   <title>Tic-Tac-Toe</title>
 </head>
 <body>
-  <h1>Let's Play</h1>
+  <h1>Let the Games Begin !</h1>
+
+  <div class="score">
+    <div class="player-1-score"></div>
+    <div class="player-2-score"></div>
+  </div>
+
+
+  <div class="grid-container">
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+    <div class="box-cell"></div>
+  </div>
+
+  <div class="end-game">
+    <p class="win-message"></p>
+    <button class="restart-button">Play Again !</button>
+  </div>
+
   <script src="./main.js"></script>
 </body>
 </html>
